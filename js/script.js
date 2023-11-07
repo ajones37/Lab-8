@@ -1,5 +1,7 @@
 function init(){
-
+function (){
+	alert('Ariana Jones:');
+}
  
 
 
@@ -7,5 +9,5 @@ function init(){
 
 
 
-
+}
 window.addEventListener('load', init);
