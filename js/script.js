@@ -1,10 +1,10 @@
 function init(){
-function (){
+function myEventFunction(){
 	alert('Ariana Jones:');
 }
  
-
-
+var entrybutton=
+entrybutton.addEvenListener('click', myEventFunction);
 
 
 
