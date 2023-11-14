@@ -1,14 +1,12 @@
 function init(){
-    function myEventFunction(){
-	  alert('Ariana Jones:');
-    }
- 
-    var d1 =document.getElementById('entrybutton');
-	
-    d1.getElementById('click', function){
-		console.log('I was clicked');
-		
-   });
+  var button = document.getElementById('entrybutton');
+
+  function showMeText(){
+    var textbox = document.getElementById('entryinput');
+    document.getElementById('textoutput').innerHTML = textbox.value;
+    alert("Ariana Jones");
+	console.log('I was clicked')
+  }
 
 
 
