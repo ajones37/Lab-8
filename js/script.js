@@ -5,7 +5,6 @@ function init(){
     var textbox = document.getElementById('entryinput');
     document.getElementById('textoutput').innerHTML = textbox.value;
     alert("Ariana Jones:" + textbox.value);
-	console.log('I was clicked')
   }
 
 button.addEventListener('click',showMeText);
