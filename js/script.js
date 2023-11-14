@@ -1,11 +1,11 @@
 function init(){
-function myEventFunction(){
-	alert('Ariana Jones:');
-}
+    function myEventFunction(){
+	  alert('Ariana Jones:');
+    }
  
-var entrybutton=
-entrybutton.addEvenListener('click', myEventFunction);
-
+    var d1 =document.getElementById('entrybutton');
+    d1.getElementById('click', myEventFunction);{
+   });
 
 
 
