@@ -1,12 +1,12 @@
-function init(){
-  var button = document.getElementById('entrybutton');
+function init(){	
 
-  function showMeText(){
-    var textbox = document.getElementById('entryinput');
-    document.getElementById('textoutput').innerHTML = textbox.value;
-    alert("Ariana Jones:" + textbox.value);
-  }
-
-button.addEventListener('click',showMeText);
+  
+  var d4 = document.getElementById('div4');
+  d4.addEventListener('click', myEventFunction);
+  d4.addEventListener('click', function(){
+    console.log('I was Clicked!');
+    d4.style.backgroundColor = '#C00';
+    d4.innerHTML = '<strong>Goodbye</strong>';
+  });
 }
 window.addEventListener('load', init);
