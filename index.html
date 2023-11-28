@@ -11,9 +11,16 @@
   <h2 class="center">Ariana Jones</h2>
   <h3 class="center">ajones73@hawk.iit.edu</h3>
   <div id="container">
-    <input id="entryinput" type="text" name="textentry" placeholder="Enter a Message">
-    <div id="entrybutton">Alert Me</div>
-    <h2 id="textoutput" class="center">Show results here</h2>
+    <form>
+      <input id="div4" type="text" name="textentry" placeholder="Insert Text">
+    </form>
+    <script>
+      var fc = document.getElementById('Insert Text')
+      alert(fc.value);
+      fc.value = "javascript worked";
+    </script>
+    <div id="div4">Alert Me</div>
+    <h2 id="div4" class="center">Show results here</h2>
   </div>
 </body>
 </html>

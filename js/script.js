@@ -1,12 +1,12 @@
-function init(){
-  var button = document.getElementById('entrybutton');
+function init(){	
+
 
   function showMeText(){
     var textbox = document.getElementById('entryinput');
     document.getElementById('textoutput').innerHTML = textbox.value;
     alert("Ariana Jones:" + textbox.value);
-  }
 
-button.addEventListener('click',showMeText);
+
+  
 }
 window.addEventListener('load', init);
